@@ -1,0 +1,71 @@
+.header h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.header h1 span {
+  color: var(--color-primary);
+}
+.header .header__search-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px 0;
+  justify-content: space-between;
+}
+.header label {
+  position: relative;
+}
+.header .header__search-label {
+  position: absolute;
+  margin-top: 10px;
+  left: 16px;
+  color: var(--color-light-dark);
+  transition: all 0.2s ease;
+  line-height: 0.9;
+  transform-origin: 0 0;
+  transform: translate3d(0, 0, 0);
+  font-size: 14px;
+}
+.header input {
+  padding: 8px;
+  width: 135px;
+  border: 0.5px solid var(--color-grey);
+  border-radius: 16px;
+  box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.1);
+  background: url("https://cdn-icons-png.flaticon.com/128/5105/5105951.png") 125px center/14px no-repeat white;
+}
+.header input:hover {
+  border: 0.5px solid var(--color-light-dark);
+}
+.header input:focus-visible {
+  border: 1px solid var(--color-primary);
+  outline: none;
+}
+.header input:not(:-moz-placeholder-shown):valid + .header__search-label {
+  color: var(--color-primary);
+  transform: translate3d(0, -25px, 0) scale(0.85);
+  background: linear-gradient(to bottom, var(--color-light) 50%, var(--color-white) 50%);
+  padding: 3px;
+  margin-top: 19px;
+  left: 16px;
+}
+.header input:not(:placeholder-shown):valid + .header__search-label, .header input:focus + .header__search-label {
+  color: var(--color-primary);
+  transform: translate3d(0, -25px, 0) scale(0.85);
+  background: linear-gradient(to bottom, var(--color-light) 50%, var(--color-white) 50%);
+  padding: 3px;
+  margin-top: 19px;
+  left: 16px;
+}
+.header input:not(:-moz-placeholder-shown):valid + .header__search-label {
+  color: var(--color-light-dark);
+}
+.header input:not(:placeholder-shown):valid + .header__search-label {
+  color: var(--color-light-dark);
+}
+.header input:not(:-moz-placeholder-shown):valid {
+  border-color: var(--color-light-dark);
+}
+.header input:not(:placeholder-shown):valid {
+  border-color: var(--color-light-dark);
+}/*# sourceMappingURL=SearchHeader.css.map */

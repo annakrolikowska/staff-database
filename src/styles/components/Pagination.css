@@ -1,0 +1,19 @@
+.pagination {
+  margin-top: 40px;
+  text-align: end;
+}
+.pagination .pagination__button {
+  background-color: transparent;
+  border: 0.5px solid var(--color-grey);
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pagination .pagination__button:hover {
+  border: 2px solid var(--color-primary-light);
+}
+.pagination .pagination__button--active {
+  background-color: var(--color-primary-light);
+}/*# sourceMappingURL=Pagination.css.map */

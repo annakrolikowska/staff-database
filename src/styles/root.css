@@ -1,0 +1,12 @@
+:root {
+  --color-primary: #3682FA;
+  --color-primary-light: #D7E9F2;
+  --color-background: #E2E5EF;
+  --color-light: #F8FAFB;
+  --color-dark: #1E1919;
+  --color-light-dark: #b5b8c0;
+  --color-grey: #E7E7E7;
+  --color-white: #FFFFFF;
+  --color-error: #ff0000;
+  --font-primary: "Inter", sans-serif;
+}/*# sourceMappingURL=root.css.map */
