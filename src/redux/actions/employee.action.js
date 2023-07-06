@@ -17,7 +17,7 @@ export const setEmployees = (employees) => ({
 export const fetchEmployees = () => {
     return async (dispatch, getState) => {
         try {
-            const response = await fetch('http://localhost:8080/employees');
+            const response = await fetch('https://my-json-server.typicode.com/annakrolikowska/staff-api/employees');
             let data = await response.json();
 
             const { firstName, lastName, function: func, experience, dateOfBirth } = getState().filtersReducer;
