@@ -1,0 +1,50 @@
+.table {
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    & &__container {
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    & table {
+        width: 100%;
+        margin-top: 60px;
+        border-collapse: collapse;
+        box-sizing: border-box;
+    }
+
+    & thead {
+        & tr {
+            height: 40px;
+            background-color: var(--color-primary-light);
+            border-bottom: 8px solid var(--color-light);
+        }
+    }
+
+    & th {
+        font-weight: 500;
+    }
+
+    & &__th-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    tbody {
+       & tr {
+            background-color: var(--color-white);
+            border-radius: 15px;
+            margin-top: 8px;
+            border-bottom: 8px solid var(--color-light);
+            text-align: center;
+        } 
+    }
+
+    & td {
+        padding: 10px;
+        font-weight: 400;
+    }
+}

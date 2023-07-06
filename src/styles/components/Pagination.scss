@@ -1,0 +1,22 @@
+.pagination {
+    margin-top: 40px;
+    text-align: end;
+
+    & &__button {
+        background-color: transparent;
+        border: 0.5px solid var(--color-grey);
+       width: 30px;
+       height: 30px;;
+       margin-left: 20px;
+       border-radius: 5px;;
+       cursor: pointer;
+
+       &:hover {
+        border: 2px solid var(--color-primary-light);
+       }
+
+        &--active {
+            background-color: var(--color-primary-light);
+        }
+    }
+}

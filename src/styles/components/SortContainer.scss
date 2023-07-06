@@ -1,0 +1,21 @@
+.sort {
+
+    & &__button {
+        border: none;
+        background-color: transparent;
+        transition: 0.2s;
+        cursor: pointer;
+
+        &--filter {
+            opacity: 20%;
+        }
+
+        &--filter:hover {
+            opacity: 90%;
+        }
+    }
+
+    & svg {
+        color: var(--color-dark);
+    }
+}
