@@ -6,6 +6,7 @@
 
 This project aims to create a solution for managing personal data of employees in the Beauty and the Beast estate. The json file contains personal data of the staff working at the castle.
 
+[**Here is the link to the live project**](https://annakrolikowska.github.io/staff-database/) 
 
  ## :bulb: Project features:
 - Displaying employee personal data in a table format.
