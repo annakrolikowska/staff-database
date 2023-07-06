@@ -1,7 +1,7 @@
 # 🏰 Employee Data Management 
 
 
-<img src='https://i.ibb.co/JQHnRh5/database.png'> 
+<img src='https://i.ibb.co/3R5jDp2/database.png'> 
 
 
 This project aims to create a solution for managing personal data of employees in the Beauty and the Beast estate. The json file contains personal data of the staff working at the castle.
