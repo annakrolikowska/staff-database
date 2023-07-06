@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/staff-database/static/css/main.08bd33f4.css",
+    "main.js": "/staff-database/static/js/main.dec23578.js",
+    "static/js/787.28cb0dcd.chunk.js": "/staff-database/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/staff-database/index.html",
+    "main.08bd33f4.css.map": "/staff-database/static/css/main.08bd33f4.css.map",
+    "main.dec23578.js.map": "/staff-database/static/js/main.dec23578.js.map",
+    "787.28cb0dcd.chunk.js.map": "/staff-database/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08bd33f4.css",
+    "static/js/main.dec23578.js"
+  ]
+}
